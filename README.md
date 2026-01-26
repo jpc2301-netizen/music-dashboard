@@ -21,6 +21,19 @@ A React music app that allows users to search songs, preview tracks, save favour
 
 ## 📚 What I Learned
 This project demonstrates React state management, API integration, component layout structuring, and local storage handling in a real-world dashboard interface.
+
+## ⚙️ Challenges & Solutions
+
+**Challenge:** Handling asynchronous API calls without blocking UI  
+**Solution:** Used `useEffect` with proper async function handling and loading states
+
+**Challenge:** Persisting user favourites between sessions  
+**Solution:** Integrated `localStorage` with state synchronisation
+
+**Challenge:** Managing multiple views within a single-page app  
+**Solution:** Implemented view-based conditional rendering
+
+
 ## 🧠 Technical Highlights
 
 - Implemented dynamic search with external API integration (iTunes API)
