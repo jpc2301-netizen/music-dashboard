@@ -43,3 +43,13 @@ This project demonstrates React state management, API integration, component lay
 - Built responsive UI using CSS Grid and Flexbox
 - Handled asynchronous operations and loading states
 - Deployed production build using Netlify CI/CD pipeline
+## 🧠 Technical Highlights
+
+- Implemented dynamic search functionality using the iTunes REST API
+- Managed complex UI state using React Hooks (`useState`, `useEffect`, `useMemo`)
+- Designed multi-view dashboard structure with conditional rendering
+- Integrated persistent user data using browser `localStorage`
+- Handled asynchronous API requests with proper loading and error states
+- Built responsive layout using CSS Grid and Flexbox
+- Structured application using component-based architecture principles
+- Deployed production build using GitHub → Netlify CI/CD pipeline
