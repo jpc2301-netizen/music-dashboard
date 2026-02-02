@@ -53,3 +53,13 @@ This project demonstrates React state management, API integration, component lay
 - Built responsive layout using CSS Grid and Flexbox
 - Structured application using component-based architecture principles
 - Deployed production build using GitHub → Netlify CI/CD pipeline
+## ⚙️ Challenges & Solutions
+
+**Challenge:** Managing asynchronous API calls without blocking the interface  
+**Solution:** Used React Hooks with loading states to ensure smooth UI updates
+
+**Challenge:** Persisting favourites between sessions  
+**Solution:** Synced React state with `localStorage`
+
+**Challenge:** Handling multiple dashboard views  
+**Solution:** Implemented conditional rendering and structured state management
